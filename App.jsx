@@ -1,8 +1,11 @@
+import Home from './pages/Home.jsx'
 class App extends React.Component {
 
     render() {
         return (
-            <main></main>
+            <main>
+                <Home />
+            </main>
         )
     }
 }
